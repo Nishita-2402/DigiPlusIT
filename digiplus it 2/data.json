@@ -1,0 +1,13 @@
+{
+    "selected-node":[
+        {
+            "type":"Single node",
+            "val":"Single_node1"
+        },
+        {
+            "type":"Parent node",
+            "val":"Parent_node1"
+        }
+       
+    ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><h2>Node Type :</h2></div>
+    <div class="node-type">
+        <select id="node"name="node-name" id="node"placeholder="Select One">
+            <option  value="none" selected disabled hidden>Select an Option</option> 
+            <option value="Single_Node">Single Node</option>
+            <option value="Parent_Node">Parent Node</option>
+            <option value="Child_Node">Child Node</option>
+          </select>
+          
+    </div>
+    <br>
+    <br>
+    <div class="node-val"><h2>Node Value :</h2> 
+       
+    </div>
+    <div class="node-value"> <input type="text" id="val" placeholder="Write Node value here"></div>
+    <br>
+    <div class="button">
+        <button id="add" onclick="Add()">Add Node</button>
+    </div>
+    <br>
+    <br>
+    <div class="selected-node"><h2>Selected Node : </h2>
+        <input type="text" id="val" placeholder="Node value">
+
+        <button id="btn">Update</button>
+        <button id="btn1">Delete</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
